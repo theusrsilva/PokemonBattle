@@ -6,10 +6,10 @@
 ##Terá gráficos atualizados com parciais dos pokémons atualizados.
 
 
-##*Php
-##*Mysql
-##*Ajax
-##*Html
-##*Css
-##*Js
-##*Google Chart
+*Php
+*Mysql
+*Ajax
+*Html
+*Css
+*Js
+*Google Chart
