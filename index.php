@@ -45,6 +45,28 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <form action="#">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <label>
+            <input type="radio" name="pokemon" value="Pokémon 1"/> 
+            <img src="img/1.png" alt="">
+          </label>
+          <label>
+            <input type="radio" name="pokemon" value="Pokémon 2">
+            <img src="img/2.png" alt="">
+          </label>
+          <label>
+            <input type="radio" name="pokemon" value="Pokémon 3">
+            <img src="img/3.png" alt="">
+          </label>  
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+    </form>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
