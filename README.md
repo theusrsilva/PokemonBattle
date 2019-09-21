@@ -13,4 +13,5 @@
 * Css
 * Js
 * Google Chart
-* Cron
+* Cron Diário
+* Bootstrap
