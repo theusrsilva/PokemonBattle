@@ -9,15 +9,28 @@ input[type=radio] {
 }
 
 img:hover {
-    opacity: 0.4;
+    opacity: 0.7;
     cursor: pointer;
 }
 
 img:active {
-    opacity: 0.4;
+    opacity: 0.7;
     cursor: pointer;
 }
 
 input[type=radio]:checked+img {
-    border: 20px solid rgb(228, 207, 94);
+    border: 5px solid rgb(228, 207, 94);
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    } 
+}
+.main{
+    padding-top: 12%;
+}
+.bg-dark{
+    background-color: #CA4C40!important;
+    filter: brightness(70%);
 }

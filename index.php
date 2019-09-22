@@ -48,7 +48,7 @@
   <div class="container">
     <form action="#">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center main">
           <label>
             <input type="radio" name="pokemon" value="Pokémon 1"/> 
             <img src="img/1.png" alt="">
@@ -61,7 +61,7 @@
             <input type="radio" name="pokemon" value="Pokémon 3">
             <img src="img/3.png" alt="">
           </label>  
-          <div class="row">
+          <div class="col-lg-12 text-center main" id="submit">
             <input type="submit" value="Submit">
           </div>
         </div>
