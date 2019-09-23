@@ -32,7 +32,25 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text" href="#">Sobre</a>
+            <button type="button" class="btn btn-primary nav-link text" data-toggle="modal" data-target="#modalExemplo">
+            Sobre
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title text" id="exampleModalLabel">Sobre</h5>
+                  </div>
+                  <div class="modal-body text" >
+                    Criadores: <br> Matheus Rocha Da Silva <br> Alexandre Pedroza Machado
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary text" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -52,8 +70,8 @@
       <div class="row">
         <div class="col-lg-12 text-center main">
           <label>
-            <input type="radio" name="pokemon" value="Pokémon 1"/> 
-            <img class="pkm" src="assets/img/1.png" alt="">
+              <input type="radio" name="pokemon" value="Pokémon 1"/> 
+              <img class="pkm" src="assets/img/1.png" alt="">
           </label>
           <label>
             <input type="radio" name="pokemon" value="Pokémon 2">
@@ -63,7 +81,7 @@
             <input type="radio" name="pokemon" value="Pokémon 3">
             <img class="pkm" src="assets/img/3.png" alt="">
           </label>  
-          <div class="col-lg-12 text-center main" id="submit">
+          <div class="col-lg-12 text-center main button" id="submit">
             <button type="submit" name="submit" value="Submit">Vote aqui!</button>
           </div>
         </div>
