@@ -59,12 +59,10 @@
   <!-- Page Content -->
   <div class="container index">
     <?php
-      print_r($_SERVER);
       if($_SERVER['REMOTE_ADDR']=='186.223.166.223'){
-        echo('oi');
+        require('view/resultados.php');
       }else{
         require('view/home.php');
-
       }
       ?>
   </div>
