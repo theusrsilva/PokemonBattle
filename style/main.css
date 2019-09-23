@@ -23,7 +23,7 @@ input[type=radio] {
 }
 
 input[type=radio]:checked+.pkm {
-    border: 5px solid  #91352d;
+    border: 3px solid  #91352d;
     border-radius: 50%;
     
 }
