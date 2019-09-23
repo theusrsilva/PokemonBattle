@@ -1,12 +1,20 @@
 .pkm {
     min-width: 20vw;
     min-height: 20vw;
-    padding: 2vw;
+    padding: 20px;
     -webkit-transition-duration: 0.07s;
+}
+.img-row{
+
 }
 
 .container{
     max-width: 1560px!important;
+    
+}
+.index{
+    background-color: white!important;
+
 }
 .img-logo{
     width: 35px;
@@ -55,7 +63,11 @@ input[type=radio]:checked+.pkm {
         max-width: 1200px;
     } 
     .row{
-        padding: 50px;
+        padding: 52.8px;
+    }
+    body{
+        background-color: #f4f4f4;
+        
     }
 }
 .main{
