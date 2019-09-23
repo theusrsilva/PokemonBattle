@@ -13,6 +13,7 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="style/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
 
 </head>
 
@@ -21,16 +22,17 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Pokémon Battle</a>
+      <a class="navbar-brand text" href="#">
+        Pokémon Battle
+        <img class="img-logo"src="assets/img/logo.png" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
+            <a class="nav-link text" href="#">Sobre</a>
           </li>
         </ul>
       </div>
@@ -41,7 +43,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Vote no seu Pokémon Favorito!</h1>
+        <h1 class="mt-5 text ">Vote no seu Pokémon Favorito do dia!</h1>
       </div>
     </div>
   </div>
@@ -51,18 +53,18 @@
         <div class="col-lg-12 text-center main">
           <label>
             <input type="radio" name="pokemon" value="Pokémon 1"/> 
-            <img src="img/1.png" alt="">
+            <img class="pkm" src="assets/img/1.png" alt="">
           </label>
           <label>
             <input type="radio" name="pokemon" value="Pokémon 2">
-            <img src="img/2.png" alt="">
+            <img class="pkm" src="assets/img/2.png" alt="">
           </label>
           <label>
             <input type="radio" name="pokemon" value="Pokémon 3">
-            <img src="img/3.png" alt="">
+            <img class="pkm" src="assets/img/3.png" alt="">
           </label>  
           <div class="col-lg-12 text-center main" id="submit">
-            <input type="submit" value="Submit">
+            <button type="submit" name="submit" value="Submit">Vote aqui!</button>
           </div>
         </div>
     </form>
