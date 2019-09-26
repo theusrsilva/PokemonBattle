@@ -4,9 +4,12 @@
     padding: 20px;
     -webkit-transition-duration: 0.07s;
 }
-.img-row{
-
-}
+@media (width: 320px){
+    .navbar-brand{
+            margin-right: 0px!important;
+            font-size: 1.8rem!important;
+        }
+    }
 
 .container{
     max-width: 1560px!important;
