@@ -6,7 +6,7 @@
     </div>
     <?php
     for ($i=1; $i <810 ; $i++) { 
-        $filename = "C:/xampp/htdocs/PokemonBattle/assets/pokemons/".$i.".gif";
+        $filename = "C:/xampp/htdocs/PokemonBattle/assets/raine/".$i.".gif";
         $file = fopen("https://pokemonlegends.com.br/public/images/pokemon/".$i.".gif", 'r');
         file_put_contents($filename, $file);
         fclose($file);

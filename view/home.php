@@ -9,19 +9,19 @@
           <div class="col-xl-4 text-center">
             <label>
                 <input type="radio" name="pokemon" value="Pokémon 1"/> 
-                <img class="pkm" src="assets/img/1.png" alt="">
+                <img class="pkm" src="assets/pokemons/612.gif" alt="">
             </label>
           </div>  
           <div class="col-xl-4 text-center ">
             <label>
                 <input type="radio" name="pokemon" value="Pokémon 2"/> 
-                <img class="pkm" src="assets/img/2.png" alt="">
+                <img class="pkm" src="assets/pokemons/348.gif" alt="">
             </label>
           </div>  
           <div class="col-xl-4 text-center ">
             <label>
                 <input type="radio" name="pokemon" value="Pokémon 3"/> 
-                <img class="pkm" src="assets/img/3.png" alt="">
+                <img class="pkm" src="assets/pokemons/245.gif" alt="">
             </label>
           </div>   
         </div>
