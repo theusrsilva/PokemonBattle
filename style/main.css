@@ -1,9 +1,13 @@
 .pkm {
-    min-width: 10vw;
-    min-height: 10vw;
+    min-height: 14vw;
     
     padding: 20px;
     -webkit-transition-duration: 0.07s;
+}
+.pkm-name{
+    margin-top: 60px;
+    font-size: 1.8rem;
+    font-family: 'VT323', monospace;
 }
 @media (width: 320px){
     .navbar-brand{
@@ -72,6 +76,7 @@ input[type=radio]:checked+.pkm {
     }
     body{
         background-color: #f4f4f4;
+        overflow: hidden;
         
     }
 }
